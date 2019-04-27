@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Thingy:52 Web Bluetooth Minimal Example</title>
+  </head>
+  <body>
+    <h1>Thingy:52 Web Bluetooth Minimal Demo</h1>
+    
+    <button onclick="connect()">Connect to Thingy:52</button>
+    <div hidden id="controls">
+      <button onclick="setLEDColor(255, 0, 0)">Red</button>
+      <button onclick="setLEDColor(0, 255, 0)">Green</button>
+      <button onclick="setLEDColor(0, 0, 255)">Blue</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
